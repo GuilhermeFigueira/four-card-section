@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+article {
+	@apply border-t-4 rounded-md shadow-2xl flex flex-col p-7 gap-2 md:py-10 md:gap-4;
+}
+h3 {
+	@apply text-blue-dark font-bold text-xl;
+}
+article p {
+	@apply text-xs text-blue-gray w-[90%];
+}
+img {
+	@apply w-fit h-fit self-end mt-4 md:mt-8;
+}
